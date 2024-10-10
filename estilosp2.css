@@ -31,11 +31,14 @@
   .cuadrado {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 400px; /* Ajusta el tamaño según necesites */
-    height: 400px; /* Ajusta el tamaño según necesites */
+    width: 100%; 
+    height: 400px; 
+    justify-content: center;
+    gap: 20px;
 }
 .cuadrado img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Para que las imágenes mantengan su proporción */
+    object-fit: cover;
+    justify-content: center;
 }
