@@ -1,0 +1,74 @@
+html{
+    background-color: beige;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration:none; 
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px; 
+
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  
+  .img {
+    width: 1050px; 
+    height: auto; 
+  }
+
+  .de{
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #000000; 
+    color: white;           
+    padding: 20px 0;        
+    text-align: center;     
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1000px;     
+    margin: 0 auto;       
+  }
+  
+  .footer-nav a {
+    color: white;        
+    margin: 0 10px;        
+    text-decoration: none;  
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline; 
+  }
+  
+  .bebas {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  }
+
+  .footer-nav2 a {
+    color: rgb(0, 0, 0);        
+    margin: 0 10px;        
+    text-decoration: none;  
+  }
+  
